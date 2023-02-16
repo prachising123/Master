@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    width: 100%;
+    /* background-color: blue; */
+
+}
+nav{
+    color:white;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   background-color: black;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    margin:20px;
+   width: 100%;
+}
+nav ul li{
+    margin: 10px;
+}
+.main-section{
+  padding-top: 30px;
+    width: 100%;
+    height: 800px;
+    background-image: url(./24364.c1656340.668x375o.af56013e623b@2x.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.main-section img{ 
+    height: 100px;
+    width: 18%;
+    padding-bottom: 4%;
+   
+}
+.main-section ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.main-section i{
+font-size: 17px;
+}
+.text-section{
+    margin-top: 50px;
+}
+.text-section h1{
+    margin-left: 110px;
+}
+.text-section h6{
+    margin-left: 110px;
+    font-size: 18px; 
+    margin-top: 20px;
+}
+.text-section button{
+    margin-left: 110px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 12px;
+    
+}
+.text-section i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.outer-box{
+    position: relative;
+}
+.box{
+   position: absolute;
+   top: -150px;
+    width: 80%;
+    align-items: center;
+    margin-left: 160px;
+display: flex;
+    justify-content: center;
+   
+}
+.box i {
+    font-size: 30px;
+}
+.box1{
+    padding: 10px;
+width: 25%;
+height: 300px;
+background-color: rgb(130, 213, 113);
+
+}
+.box2{
+    padding: 10px;
+    width: 25%;
+    height: 300px;
+    background-color:rgb(234, 234, 122);
+}
+.box3{
+    padding: 10px;
+        width: 25%;
+        height: 300px;
+        background-color: rgb(99, 181, 179);
+}
+.box4{
+    padding: 10px;
+            width: 25%;
+            height: 300px;
+            background-color: rgb(206, 101, 194);
+}    
+.img-section{
+    margin-top: 150px;
+    width: 100%;
+    height: 70vh;
+   
+}
+.img-section h3{
+    text-align: center;
+    padding: 40px;
+}
+.sqaurebox{
+    padding: 0px 50px;
+    width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content:space-between;
+}
+.imgs{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    justify-content:space-between;
+}
+.img-1{
+    background-image: url(./book.jpeg);
+}
+.img-2{
+    background-image: url(./2nd\ img.jpeg);
+}
+.img-3{
+    background-image: url(./3rd\ img.jpeg);
+}
+.img-4{
+    background-image:url(./last\ img.jpeg) ;
+}
+.box1 h5{
+    margin-top: 10px;
+}
+.box2 h5{
+    margin-top: 10px;
+}
+.box3 h5{
+    margin-top: 10px;
+}
+.box4 h5{
+    margin-top: 10px;
+}
+.box1 p{
+    margin-top: 10px;
+}
+.box2 p{
+    margin-top: 10px;
+}
+.box3 p{
+    margin-top: 10px;
+}
+.box4 p{
+    margin-top: 10px;
+}
